@@ -1,14 +1,5 @@
 # Praktikum Struktur Data --- Minggu 3: Abstract Data Type (ADT)
 
-Repositori ini berisi dokumentasi dan implementasi praktikum mata kuliah
-**Struktur Data** pada materi **Abstract Data Type (ADT)**. Materi
-dibagi menjadi dua bagian, yaitu **Guided** (latihan mengikuti contoh
-modul) dan **Unguided/Laporan Praktikum (Laprak)** yang terdiri dari
-tiga soal.
-
-> **Catatan:** sesuaikan bagian identitas di bawah ini sebelum
-> mengumpulkan atau memublikasikan repositori.
-
 ## Identitas
 
 -   **Mata kuliah:** Struktur Data
