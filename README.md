@@ -84,40 +84,6 @@ ada pada header. Include guard seperti `#ifndef`, `#define`, dan
 `#endif` mencegah header diproses berulang kali dalam satu unit
 kompilasi.
 
-## Struktur Direktori
-
-Contoh struktur proyek yang didokumentasikan:
-
-``` text
-Struktur-Data/
-├── LatihanWeek3/                 # Guided
-│   ├── mahasiswa.h
-│   ├── mahasiswa.cpp
-│   └── main.cpp
-└── LaprakModul3/                 # Unguided/Laprak
-    ├── Soal1/
-    │   ├── mahasiswa.h
-    │   ├── mahasiswa.cpp
-    │   └── main.cpp
-    ├── Soal2/
-    │   ├── pelajaran.h
-    │   ├── pelajaran.cpp
-    │   └── main.cpp
-    ├── Soal3/
-    │   ├── arraypointer.h
-    │   ├── arraypointer.cpp
-    │   └── main.cpp
-    └── screenshots/
-        ├── guided-output.png
-        ├── soal1-output.png
-        ├── soal2-output.png
-        └── soal3-output.png
-```
-
-Nama folder boleh mengikuti struktur lokal yang digunakan. Pada struktur
-yang ditampilkan di VS Code, `LatihanWeek3` dan `LaprakModul3` dapat
-berada sebagai folder terpisah di dalam folder proyek utama.
-
 ------------------------------------------------------------------------
 
 # Bagian A --- Guided
