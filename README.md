@@ -27,7 +27,6 @@
     -   [Soal 1 --- Data Mahasiswa](#soal-1--data-mahasiswa)
     -   [Soal 2 --- ADT Pelajaran](#soal-2--adt-pelajaran)
     -   [Soal 3 --- Array 2D dan Pointer](#soal-3--array-2d-dan-pointer)
--   [Dokumentasi Screenshot](#dokumentasi-screenshot)
 -   [Kesimpulan](#kesimpulan)
 -   [Daftar Pustaka](#daftar-pustaka)
 
@@ -707,48 +706,6 @@ pointer, nilai `a` dan `b` bertukar melalui dereferensi pointer.
 
 ------------------------------------------------------------------------
 
-## Dokumentasi Screenshot
-
-Tambahkan screenshot **hasil terminal yang benar-benar dijalankan** ke
-folder `LaprakModul3/screenshots/`. Pastikan screenshot memperlihatkan
-command atau hasil program dan output yang terbaca.
-
-Setelah file gambar disimpan sesuai nama berikut, bagian ini akan
-menampilkan gambarnya di GitHub:
-
-### Guided
-
-Simpan screenshot output Guided dengan nama `guided-output.png`.
-
-![Screenshot output Guided](screenshots/guided-output.png)
-
-### Unguided --- Soal 1: Data Mahasiswa
-
-Simpan screenshot yang menampilkan input data mahasiswa dan hasil
-perhitungan nilai akhir dengan nama `soal1-output.png`.
-
-![Screenshot output Soal 1](screenshots/soal1-output.png)
-
-### Unguided --- Soal 2: ADT Pelajaran
-
-Simpan screenshot output nama dan kode mata pelajaran dengan nama
-`soal2-output.png`.
-
-![Screenshot output Soal 2](screenshots/soal2-output.png)
-
-### Unguided --- Soal 3: Array 2D dan Pointer
-
-Simpan screenshot yang menampilkan array sebelum/sesudah pertukaran dan
-nilai pointer dengan nama `soal3-output.png`.
-
-![Screenshot output Soal 3](screenshots/soal3-output.png)
-
-> Gambar di atas merupakan tautan relatif ke file screenshot yang perlu
-> ditambahkan ke repositori. Gambar tidak akan tampil sampai file dengan
-> nama dan lokasi tersebut benar-benar diunggah ke GitHub.
-
-------------------------------------------------------------------------
-
 ## Kesimpulan
 
 Berdasarkan praktikum Modul 3, ADT membantu memisahkan definisi tipe
@@ -782,29 +739,3 @@ yang terpisah dan lebih terorganisasi.
     https://learn.microsoft.com/en-us/cpp/cpp/struct-cpp
 
 ------------------------------------------------------------------------
-
-## Catatan Kompilasi
-
-Setiap latihan memiliki `main.cpp` masing-masing, sehingga kompilasikan
-satu soal dalam satu waktu. Jangan menggabungkan seluruh `main.cpp` ke
-dalam satu perintah kompilasi.
-
-  -----------------------------------------------------------------------------------------------
-  Folder                   Perintah compile                               Perintah menjalankan
-  ------------------------ ---------------------------------------------- -----------------------
-  Guided (`LatihanWeek3`)  `g++ .\main.cpp .\mahasiswa.cpp -o guided`     `.\guided.exe`
-
-  Soal 1                   `g++ .\main.cpp .\mahasiswa.cpp -o soal1`      `.\soal1.exe`
-  (`LaprakModul3/Soal1`)                                                  
-
-  Soal 2                   `g++ .\main.cpp .\pelajaran.cpp -o soal2`      `.\soal2.exe`
-  (`LaprakModul3/Soal2`)                                                  
-
-  Soal 3                   `g++ .\main.cpp .\arraypointer.cpp -o soal3`   `.\soal3.exe`
-  (`LaprakModul3/Soal3`)                                                  
-  -----------------------------------------------------------------------------------------------
-
-Jika Windows menampilkan pesan bahwa kebijakan *Application Control*
-memblokir executable, itu bukan dengan sendirinya bukti bahwa kode gagal
-dikompilasi. Ikuti kebijakan keamanan perangkat atau minta bantuan
-administrator/dosen; jangan mencoba melewati pembatasan keamanan.
