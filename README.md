@@ -401,6 +401,7 @@ Nilai Akhir : 81.5
 Perhitungan: - Andi: `0.3(80) + 0.4(90) + 0.3(85) = 85.5`. - Budi:
 `0.3(75) + 0.4(80) + 0.3(90) = 81.5`.
 
+![Screenshot output Soal 1](soal1.png)
 ------------------------------------------------------------------------
 
 ## Soal 2 --- ADT Pelajaran
@@ -505,6 +506,8 @@ gunakan `cd .\LaprakModul3\Soal2`.
 Nama Mata Pelajaran : Struktur Data
 Kode Mata Pelajaran : STD
 ```
+
+![Screenshot output Soal 2](soal2.png)
 
 ------------------------------------------------------------------------
 
@@ -699,6 +702,8 @@ Nilai b = 100
 Output tersebut memperlihatkan bahwa hanya elemen pada posisi yang
 dipilih yang bertukar, sedangkan elemen array lainnya tetap. Pada bagian
 pointer, nilai `a` dan `b` bertukar melalui dereferensi pointer.
+
+![Screenshot output Soal 3](soal3.png)
 
 ------------------------------------------------------------------------
 
